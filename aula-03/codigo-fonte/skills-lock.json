@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "cloudflare": {
+      "source": "pedronauck/skills",
+      "sourceType": "github",
+      "computedHash": "49104982a9de3b6a7718f1c34866ca2a435ec826a523f0e8e0ee97b64409de2d"
+    }
+  }
+}

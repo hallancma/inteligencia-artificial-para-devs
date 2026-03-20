@@ -1,0 +1,123 @@
+{
+  "colors": {
+    "background": "#EEF2F7",
+    "surface": "#FFFFFF",
+    "divider": "#F0F4F8",
+    "text": {
+      "primary": "#1B2A4A",
+      "secondary": "#7B8BA3",
+      "muted": "#A0AEC0",
+      "onGradient": "#FFFFFF",
+      "onGradientSubtle": "rgba(255,255,255,0.75)",
+      "onGradientMuted": "rgba(255,255,255,0.60)"
+    },
+    "accent": {
+      "blue": "#4A8FE7",
+      "orange": "#F97316"
+    }
+  },
+  "gradients": {
+    "heroSunny": "linear-gradient(135deg, oklab(64.7% -0.037 -0.145) 0%, oklab(70.2% -0.042 -0.128) 40%, oklab(79.3% -0.050 -0.091) 100%)",
+    "heroCloudy": "linear-gradient(135deg, oklab(53.8% -0.020 -0.093) 0%, oklab(52.2% 0.041 -0.105) 40%, oklab(64.6% 0.061 -0.098) 70%, oklab(76.8% 0.059 -0.058) 100%)",
+    "heroRain": "linear-gradient(135deg, oklab(65.8% -0.113 0.015) 0%, oklab(74.9% -0.130 0.024) 40%, oklab(85.9% -0.127 0.028) 70%, oklab(90.8% -0.091 0.015) 100%)",
+    "geoButton": "linear-gradient(135deg, oklab(64.7% -0.037 -0.145) 0%, oklab(75.3% -0.056 -0.099) 100%)",
+    "iconHumidity": "linear-gradient(135deg, oklab(64.7% -0.037 -0.145) 0%, oklab(79.3% -0.050 -0.091) 100%)",
+    "iconWind": "linear-gradient(135deg, oklab(77.3% -0.147 0.044) 0%, oklab(84.5% -0.126 0.034) 100%)",
+    "iconUV": "linear-gradient(135deg, oklab(78.4% 0.046 0.152) 0%, oklab(83.7% 0.016 0.164) 100%)",
+    "iconPrecipitation": "linear-gradient(135deg, oklab(60.6% 0.085 -0.202) 0%, oklab(70.9% 0.064 -0.146) 100%)",
+    "chartBarHigh": "linear-gradient(180deg, oklab(59.3% -0.034 -0.151) 0%, oklab(75.3% -0.056 -0.099) 100%)",
+    "chartBarMid": "linear-gradient(180deg, oklab(64.7% -0.037 -0.145) 0%, oklab(87.6% -0.021 -0.058) 100%)",
+    "chartBarLow": "linear-gradient(180deg, oklab(83.1% -0.044 -0.074) 0%, oklab(92.7% -0.020 -0.034) 100%)",
+    "uvBar": "linear-gradient(90deg, oklab(72.3% -0.166 0.097) 0%, oklab(76.8% -0.134 0.155) 20%, oklab(79.5% 0.011 0.161) 40%, oklab(70.5% 0.126 0.138) 60%, oklab(63.7% 0.188 0.089) 80%, oklab(57.7% 0.191 0.099) 100%)",
+    "tempBar": "linear-gradient(90deg, oklab(75.3% -0.056 -0.099) 0%, oklab(64.7% -0.037 -0.145) 100%)"
+  },
+  "typography": {
+    "fontFamily": "\"Sora\", system-ui, sans-serif",
+    "scale": {
+      "tempDisplayMobile": {
+        "size": "72px",
+        "weight": 800,
+        "lineHeight": "72px",
+        "letterSpacing": "-0.03em"
+      },
+      "tempDisplayCard": {
+        "size": "56px",
+        "weight": 300,
+        "lineHeight": "56px"
+      },
+      "tempUnit": { "size": "28px", "weight": 300, "lineHeight": "32px" },
+      "pageTitle": { "size": "20px", "weight": 700, "lineHeight": "24px" },
+      "sectionTitle": { "size": "17px", "weight": 700, "lineHeight": "22px" },
+      "metricValue": { "size": "18px", "weight": 700, "lineHeight": "22px" },
+      "cityName": { "size": "15px", "weight": 500, "lineHeight": "18px" },
+      "heroCondition": { "size": "14px", "weight": 500, "lineHeight": "18px" },
+      "heroFeelsLike": { "size": "13px", "weight": 400, "lineHeight": "16px" },
+      "body": { "size": "14px", "weight": 600, "lineHeight": "18px" },
+      "label": { "size": "13px", "weight": 500, "lineHeight": "16px" },
+      "smallLabel": { "size": "11px", "weight": 500, "lineHeight": "14px" },
+      "chartLabel": { "size": "10px", "weight": 500, "lineHeight": "12px" },
+      "unitLabel": { "size": "12px", "weight": 400, "lineHeight": "16px" },
+      "placeholder": { "size": "15px", "weight": 400, "lineHeight": "18px" }
+    }
+  },
+  "spacing": {
+    "pagePadding": "20px",
+    "cardPadding": "28px",
+    "metricCardPadding": { "block": "16px", "inline": "8px" },
+    "searchPadding": { "block": "14px", "inline": "18px" },
+    "rowPadding": { "block": "14px", "inline": "18px" },
+    "sectionGap": "16px",
+    "cardGap": "4px",
+    "metricGap": "8px",
+    "rowGap": "12px"
+  },
+  "radii": {
+    "heroCard": "24px",
+    "card": "20px",
+    "searchInput": "16px",
+    "metricCard": "18px",
+    "iconContainer": "12px",
+    "chartBar": "8px",
+    "tempBar": "3px",
+    "uvBar": "4px",
+    "geoButton": "16px"
+  },
+  "shadows": {
+    "card": "0px 2px 8px rgba(0,0,0,0.04)",
+    "heroSunny": "0px 8px 32px rgba(74,143,231,0.25)",
+    "heroCloudy": "0px 10px 30px rgba(107,92,165,0.30)",
+    "heroRain": "0px 10px 30px rgba(46,168,138,0.30)",
+    "geoButton": "0px 4px 12px rgba(74,143,231,0.30)",
+    "uvIndicator": "0px 2px 4px rgba(0,0,0,0.10)"
+  },
+  "components": {
+    "uvIndicator": {
+      "size": "16px",
+      "borderRadius": "50%",
+      "background": "#FFFFFF",
+      "border": "3px solid #F97316"
+    },
+    "searchInput": {
+      "background": "#FFFFFF",
+      "borderRadius": "16px",
+      "height": "46px"
+    },
+    "geoButton": {
+      "size": "50px",
+      "borderRadius": "16px"
+    },
+    "iconContainer": {
+      "size": "40px",
+      "borderRadius": "12px"
+    },
+    "tempBarTrack": {
+      "height": "6px",
+      "background": "#F0F4F8",
+      "borderRadius": "3px"
+    }
+  },
+  "breakpoints": {
+    "mobile": "390px",
+    "desktop": "1440px"
+  }
+}
