@@ -1,0 +1,29 @@
+
+> frontend@0.0.0 lint
+> eslint .
+
+
+H:\GIT\inteligencia-artificial-para-devs\aula-02\codigo-fonte\projeto\frontend\src\components\ui\button.tsx
+  56:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+H:\GIT\inteligencia-artificial-para-devs\aula-02\codigo-fonte\projeto\frontend\src\components\ui\field.tsx
+    8:44  error  'React' is not defined  no-undef
+   26:4   error  'React' is not defined  no-undef
+   42:46  error  'React' is not defined  no-undef
+   83:4   error  'React' is not defined  no-undef
+   95:48  error  'React' is not defined  no-undef
+  111:4   error  'React' is not defined  no-undef
+  126:46  error  'React' is not defined  no-undef
+  139:52  error  'React' is not defined  no-undef
+  158:4   error  'React' is not defined  no-undef
+  159:14  error  'React' is not defined  no-undef
+  189:4   error  'React' is not defined  no-undef
+
+H:\GIT\inteligencia-artificial-para-devs\aula-02\codigo-fonte\projeto\frontend\src\components\ui\skeleton.tsx
+  6:4  error  'React' is not defined  no-undef
+
+H:\GIT\inteligencia-artificial-para-devs\aula-02\codigo-fonte\projeto\frontend\src\components\ui\toggle.tsx
+  43:18  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+Ô£û 14 problems (12 errors, 2 warnings)
+

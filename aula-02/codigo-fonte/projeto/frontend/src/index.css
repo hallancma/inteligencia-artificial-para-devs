@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 204 33% 98%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 222 47% 11%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 40%;
+    --accent: 204 94% 94%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 27% 84%;
+    --input: 214 32% 91%;
+    --ring: 222 47% 20%;
+    --radius: 1.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-dvh bg-background text-foreground antialiased;
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .weather-kicker {
+    @apply inline-flex max-w-max items-center rounded-full border border-white/60 bg-white/60 px-3 py-1 text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-slate-600 backdrop-blur;
+  }
+
+  .weather-chip {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/50 bg-white/60 px-4 py-2 text-sm font-medium text-slate-700 backdrop-blur-xl;
+  }
+
+  .weather-icon-shell {
+    @apply flex size-20 items-center justify-center rounded-[2rem] border border-white/60 bg-white/70 text-slate-950 backdrop-blur-xl;
+  }
+
+  .weather-stat-panel {
+    @apply rounded-[1.5rem] border border-white/40 bg-white/50 px-4 py-3 backdrop-blur-lg;
+  }
+
+  .weather-stat-panel span {
+    @apply block text-xs uppercase tracking-[0.22em] text-slate-500;
+  }
+
+  .weather-stat-panel strong {
+    @apply mt-2 block text-sm font-semibold text-slate-900;
+  }
+
+  .weather-mini-card {
+    @apply rounded-[1.75rem] border border-white/40 bg-white/60 px-4 py-4 shadow-[0_10px_30px_rgba(15,23,42,0.08)] backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:bg-white/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-900/30;
+  }
+
+  .weather-day-card {
+    @apply flex flex-col items-start gap-4 rounded-[1.6rem] border border-white/40 bg-white/60 px-4 py-4 text-left shadow-[0_10px_30px_rgba(15,23,42,0.08)] backdrop-blur-xl transition duration-300 hover:-translate-y-0.5 hover:bg-white/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-900/30 sm:grid sm:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)_auto] sm:items-center sm:px-5;
+  }
+}
+
